@@ -178,17 +178,6 @@ make run-notebooks
 
 Acesse o notebook em `localhost:8888`
 
-# Como conseguir ajuda
-
-Parte da documentação técnica do framework da Tais está disponível na
-[wiki do repositório](https://github.com/lappis-unb/tais/wiki). Caso não encontre sua resposta, abra uma issue
-com a tag `duvida` que tentaremos responder o mais rápido possível.
-
-Em caso de dúvidas em relação ao Rasa, veja o grupo [Telegram Rasa Stack Brasil](https://t.me/RasaBrasil),
-estamos lá também para ajudar.
-
-Veja mais informações de contato em nosso site: https://lappis.rocks
-
 # Licença
 
 Todo o framework do boilerplate é desenvolvido sob a licença
