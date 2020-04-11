@@ -1,5 +1,5 @@
 ### Rasa ###
-bot/models
+bot/models/*.py
 
 ### Rasa X ###
 events.db
