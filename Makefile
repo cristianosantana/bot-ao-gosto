@@ -5,6 +5,11 @@ clean:
 
 ############################## BOILERPLATE ############################## 
 first-run:
+	make build-install
+	make train
+	make run-webchat
+
+build-run:
 	make build
 	make train
 	make run-webchat

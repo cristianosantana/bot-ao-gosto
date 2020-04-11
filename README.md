@@ -1,31 +1,17 @@
-# Rasa Boilerplate
+# Baseado no Rasa Boilerplate
 <!-- badges -->
 <a href="https://www.gnu.org/licenses/gpl-3.0.pt-br.html"><img src="https://img.shields.io/badge/licence-GPL3-green.svg"/></a>
 <a href="https://codeclimate.com/github/lappis-unb/rasa-ptbr-boilerplate/maintainability"><img src="https://api.codeclimate.com/v1/badges/3fe22bf52000e147c6df/maintainability"/></a>
 
+### Tutorial para configurar todo o projeto
 
-## For English version, see [README-en](docs/README-en.md)
+Para buildar, trainar e colocar o bot no ar pela primeira vez. execute: ``` make first-run ```
 
-## Tutorial para configurar todo o projeto
+Para re-treinar e colocar o bot no ar, execute: ``` make build-run ```
 
-Para ter seu chatbot Rasa no ar e funcionando rápidamente no `shell` execute o seguinte comando:
+OBS: existe outros comando interessantes no Makefile.
 
-```sh
-make first-run
-```
-
-Caso ocorra algum erro de permissão, executar o comando `sudo make first-run`.
-
-Este comando irá construir o seu chatbot (containers necessários) e abrir a conversação em um `livechat`
-no canto inferior direito da sua tela. Este `mensageiro` é o **WebChat**.
-
-Tudo está dockerizado então você não terá problemas de instalação do ambiente.
-
-## Introdução
-
-Um projeto feito em Rasa com configurações necessárias para a construção de um projeto grande de chatbot.
-
-Este projeto teve como base o projeto [Tais](http://github.com/lappis-unb/tais).
+Para acessar a pagina onde você poderá conversar com o bot acesse: <a href="/home/cristianosantana/Workspace/bot-ao-gosto/modules/webchat/index.html">
 
 ### Entenda a Arquitetura
 
@@ -40,27 +26,6 @@ modelos podem ser versionados e evoluídos entre bots.
 Os notebooks avaliam o funcionamento de acordo com o formato das *intents* e *stories*.
 O elasticsearch coleta os dados da conversa e armazena para a análise feita pelo kibana, que gera gráficos para
 avaliação das conversas dos usuários e do boilerplate.
-
-### Bot
-
-Este script foi configurado para construir as imagens genéricas necessárias para execução deste ambiente.
-Caso seu projeto utilize este boilerplate e vá realizar uma integração contínua ou similar, é interessante
-criar um repositório para as imagens e substitua os nomes das imagens "lappis/bot", e "lappis/botrequirements" pelas suas respectivas novas imagens, por exemplo "<organização>/bot" em repositório público.
-
-
-### Treinamento
-
-**Atenção**: o comando de treinamento é usado para criar os modelos necessários na conversação do bot para treinar o seu chatbot execute o comando:
-
-```sh
-make train
-```
-
-### Console
-
-```sh
-make run-console
-```
 
 ### Telegram
 
