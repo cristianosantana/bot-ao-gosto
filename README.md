@@ -11,7 +11,7 @@ Para re-treinar e colocar o bot no ar, execute: ``` make build-run ```
 
 OBS: existe outros comando interessantes no Makefile.
 
-Para acessar a pagina onde você poderá conversar com o bot acesse: <a href="/home/cristianosantana/Workspace/bot-ao-gosto/modules/webchat/index.html">Home Page</a>
+Para acessar a pagina onde você poderá conversar com o bot acesse: ```/home/cristianosantana/Workspace/bot-ao-gosto/modules/webchat/index.html```
 
 ### Entenda a Arquitetura
 
